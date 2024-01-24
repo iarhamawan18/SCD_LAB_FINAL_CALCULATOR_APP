@@ -61,3 +61,14 @@ double Calculator::multiply() const {
     // Implement multiplication function
     return num1 * num2;
 }
+
+//implementation of divide()
+double Calculator::divide() const {
+    // Implement division function
+    if (num2 != 0) {
+        return num1 / num2;
+    } else {
+        std::cerr << "Error: Cannot divide by zero." << std::endl;
+        return 0.0;
+    }
+}
