@@ -56,3 +56,8 @@ double Calculator::subtract() const {
     return num1 - num2;
 }
 
+//implementation of multiplication()
+double Calculator::multiply() const {
+    // Implement multiplication function
+    return num1 * num2;
+}
