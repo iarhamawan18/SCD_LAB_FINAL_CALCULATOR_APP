@@ -43,3 +43,9 @@ int main() {
 
     return 0;
 }
+
+//implementation of subtract()
+double Calculator::subtract() const {
+    // Implement subtraction function
+    return num1 - num2;
+}
