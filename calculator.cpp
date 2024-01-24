@@ -44,8 +44,15 @@ int main() {
     return 0;
 }
 
+//implementation of addition()
+double Calculator::add() const {
+    // Implement addition function
+    return num1 + num2;
+}
+
 //implementation of subtract()
 double Calculator::subtract() const {
     // Implement subtraction function
     return num1 - num2;
 }
+
