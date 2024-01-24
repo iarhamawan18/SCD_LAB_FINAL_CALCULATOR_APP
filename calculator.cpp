@@ -43,3 +43,8 @@ int main() {
 
     return 0;
 }
+
+double Calculator::add() const {
+    // Implement addition function
+    return num1 + num2;
+}
