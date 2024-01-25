@@ -68,7 +68,7 @@ double Calculator::divide() const {
     if (num2 != 0) {
         return num1 / num2;
     } else {
-        std::cerr << "Error: Cannot divide by zero." << std::endl;
-        return 0.0;
+        throw std::runtime_error("Error: Cannot divide by zero.");
     }
 }
+
